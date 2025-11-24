@@ -1,0 +1,9 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Raphael Nascimneto</title>
+        <link>http://localhost:1313/</link>
+        <description>Esse é o meu site perssoal</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 23 Nov 2025 17:53:51 -0300</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>

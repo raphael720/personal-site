@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computação Gráfica on Raphael Nascimneto</title>
+    <link>http://localhost:1313/categories/computa%C3%A7%C3%A3o-gr%C3%A1fica/</link>
+    <description>Recent content in Computação Gráfica on Raphael Nascimneto</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 22 Nov 2025 21:41:15 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/computa%C3%A7%C3%A3o-gr%C3%A1fica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introdução a Computação Gráfica</title>
+      <link>http://localhost:1313/blog/computacao-grafica/</link>
+      <pubDate>Sat, 22 Nov 2025 21:41:15 -0300</pubDate>
+      <guid>http://localhost:1313/blog/computacao-grafica/</guid>
+      <description>&lt;h1 id=&#34;computação-gráfica&#34;&gt;Computação Gráfica&lt;/h1&gt;&#xA;&lt;p&gt;No futuro próximo quero transformar essa pagina de notas em um livro sobre introdução a computação gráfica. No final do texto tem um link para o arquivo que estou usando para dicas e referências.&lt;/p&gt;&#xA;&lt;h1 id=&#34;rasterização-de-linhas&#34;&gt;Rasterização de linhas&lt;/h1&gt;&#xA;&lt;h2 id=&#34;digital-differential-analyzer-dda&#34;&gt;Digital Differential Analyzer (DDA)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;link-para-aula&#34;&gt;Link para aula&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=x6zbuyA-0S4&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;https://www.youtube.com/watch?v=x6zbuyA-0S4&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;conceito&#34;&gt;Conceito&lt;/h3&gt;&#xA;&lt;p&gt;Ele é um algoritmo usado para traçar linhas em uma grade de pixels em um sistema de exibição rasterizado, como uma tela de computador. Ele é amplamente utilizado em gráficos computacionais e é uma das técnicas mais simples e populares para renderizar linhas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
