@@ -6,14 +6,28 @@
     <description>Recent content in Inteligencia Artificial on Raphael Nascimneto</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 22 Nov 2025 21:08:10 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 18:55:20 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/inteligencia-artificial/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Aprendizado é Possivel?</title>
+      <link>http://localhost:1313/blog/learning-feasible/</link>
+      <pubDate>Thu, 27 Nov 2025 18:55:20 -0300</pubDate>
+      <guid>http://localhost:1313/blog/learning-feasible/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/blog/machine-learning/</link>
+      <link>http://localhost:1313/projects/machine-learning/</link>
       <pubDate>Sat, 22 Nov 2025 21:08:10 -0300</pubDate>
-      <guid>http://localhost:1313/blog/machine-learning/</guid>
+      <guid>http://localhost:1313/projects/machine-learning/</guid>
       <description>&lt;h1 id=&#34;introdução-ao-aprendizado&#34;&gt;Introdução ao aprendizado&lt;/h1&gt;&#xA;&lt;h1 id=&#34;aprendizado-de-máquina&#34;&gt;Aprendizado de Máquina&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A aprendizagem de máquina é uma subárea da&#xA;Inteligência Artificial.&lt;/li&gt;&#xA;&lt;li&gt;Pode ser definida como o processo de indução de&#xA;hipóteses a partir de um conjunto de dados&#xA;(experiência passada).&lt;/li&gt;&#xA;&lt;li&gt;Pretende-se então generalizar o conhecimento&#xA;adquirido de amostras de dados.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;componentes-de-aprendizagem&#34;&gt;Componentes de Aprendizagem&lt;/h1&gt;&#xA;&lt;p&gt;As condições necessárias que um problema precisa ter para haver aprendizagem de máquina.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Existência de um padrão.&lt;/li&gt;&#xA;&lt;li&gt;Não há método matemático capas de resolver o problema diretamente.&lt;/li&gt;&#xA;&lt;li&gt;Existência de dados. Temos que ter dados.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;formalmente-tempos-os-seguintes-componentes&#34;&gt;Formalmente tempos os seguintes componentes&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Entrada: $x$&lt;/li&gt;&#xA;&lt;li&gt;Saída: $y$&lt;/li&gt;&#xA;&lt;li&gt;Função alvo (Target Function): $f: X → y$ (a função que define um padrão)&lt;/li&gt;&#xA;&lt;li&gt;Dados: $(x_1, y_1), (x_2, y_2), (x_3, y_3), …, (x_n, y_n)$&lt;/li&gt;&#xA;&lt;li&gt;Hipótese: $g: X → y, \ \forall \ g  \in H$ (onde g é a resposta do nosso modelo e h é o conjunto de hipóteses)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;modelo-de-aprendizado-simples&#34;&gt;Modelo de aprendizado simples&lt;/h1&gt;&#xA;&lt;h2 id=&#34;perceptron&#34;&gt;Perceptron&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Modelo linear de aprendizagem de máquina.&lt;/li&gt;&#xA;&lt;li&gt;Unidade básica de uma rede neural artificial.&lt;/li&gt;&#xA;&lt;li&gt;Aplicável a dados linearmente separáveis.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>O Problema da Aprendizagem</title>
+      <link>http://localhost:1313/blog/learning-problem/</link>
+      <pubDate>Sat, 22 Nov 2025 21:08:10 -0300</pubDate>
+      <guid>http://localhost:1313/blog/learning-problem/</guid>
+      <description>&lt;h1 id=&#34;prefacio&#34;&gt;Prefacio&lt;/h1&gt;&#xA;&lt;p&gt;A proposta desta série de posts é apresentar, de forma clara e acessível, os fundamentos matemáticos que tornam o aprendizado de máquina (Machine Learning) possível. Fundamentos que muitas vezes ficam de fora dos cursos online ou aparecem apenas de maneira superficial.&lt;/p&gt;&#xA;&lt;p&gt;Minha inspiração vem do trabalho de David F. Rogers e J. Alan Adams no livro Mathematical Elements for Computer Graphics: uma obra que tornou conceitos matemáticos complexos compreensíveis para programadores e estudantes. Quero fazer algo semelhante aqui, mas voltado para o aprendizado de máquina.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

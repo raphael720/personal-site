@@ -33,3 +33,11 @@ I also worked as a tutor for the Introduction to Programming course, supporting 
 ## 🎓 Relevant Certificates
 
 * **[Google AI Essentials — Coursera](https://coursera.org/share/82d9e8727e529d594d96ddbf45a268c1)** — *Completed in 12/2024*
+
+--- 
+# 📑 Resume in BR and US
+
+* [📄 Baixar meu currículo em BR](Raphael_resume_simplified_BR.pdf)
+
+* [📄 Download my resume in US](Raphael_resume_simplified_US.pdf)
+

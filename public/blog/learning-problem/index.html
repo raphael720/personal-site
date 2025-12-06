@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>O Problema da Aprendizagem - Raphael Nascimneto</title><meta name="Description" content="Esse é o meu site perssoal"><meta property="og:url" content="http://localhost:1313/blog/learning-problem/">
+  <meta property="og:site_name" content="Raphael Nascimneto">
+  <meta property="og:title" content="O Problema da Aprendizagem">
+  <meta property="og:description" content="Prefacio A proposta desta série de posts é apresentar, de forma clara e acessível, os fundamentos matemáticos que tornam o aprendizado de máquina (Machine Learning) possível. Fundamentos que muitas vezes ficam de fora dos cursos online ou aparecem apenas de maneira superficial.
+Minha inspiração vem do trabalho de David F. Rogers e J. Alan Adams no livro Mathematical Elements for Computer Graphics: uma obra que tornou conceitos matemáticos complexos compreensíveis para programadores e estudantes. Quero fazer algo semelhante aqui, mas voltado para o aprendizado de máquina.">
+  <meta property="og:locale" content="pt_br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-11-22T21:08:10-03:00">
+    <meta property="article:modified_time" content="2025-11-22T21:08:10-03:00">
+    <meta property="article:tag" content="Learning Problem">
+    <meta property="og:image" content="http://localhost:1313/logo.svg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.svg">
+  <meta name="twitter:title" content="O Problema da Aprendizagem">
+  <meta name="twitter:description" content="Prefacio A proposta desta série de posts é apresentar, de forma clara e acessível, os fundamentos matemáticos que tornam o aprendizado de máquina (Machine Learning) possível. Fundamentos que muitas vezes ficam de fora dos cursos online ou aparecem apenas de maneira superficial.
+Minha inspiração vem do trabalho de David F. Rogers e J. Alan Adams no livro Mathematical Elements for Computer Graphics: uma obra que tornou conceitos matemáticos complexos compreensíveis para programadores e estudantes. Quero fazer algo semelhante aqui, mas voltado para o aprendizado de máquina.">
+      <meta name="twitter:site" content="@https://x.com/Raphael_720">
+<meta name="application-name" content="site">
+<meta name="apple-mobile-web-app-title" content="site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/logo.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/blog/learning-problem/" /><link rel="next" href="http://localhost:1313/blog/learning-feasible/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "O Problema da Aprendizagem",
+        "inLanguage": "pt-br",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/blog\/learning-problem\/"
+        },"genre": "blog","keywords": "Learning Problem","wordcount":  985 ,
+        "url": "http:\/\/localhost:1313\/blog\/learning-problem\/","datePublished": "2025-11-22T21:08:10-03:00","dateModified": "2025-11-22T21:08:10-03:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Raphael Nascimneto">Raphael Nascimento</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/"> blog </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/projects/"> Projects </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Raphael Nascimneto">Raphael Nascimento</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/blog/" title="">blog</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/projects/" title="">Projects</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">O Problema da Aprendizagem</h1><div class="content" id="content"><h1 id="prefacio">Prefacio</h1>
+<p>A proposta desta série de posts é apresentar, de forma clara e acessível, os fundamentos matemáticos que tornam o aprendizado de máquina (Machine Learning) possível. Fundamentos que muitas vezes ficam de fora dos cursos online ou aparecem apenas de maneira superficial.</p>
+<p>Minha inspiração vem do trabalho de David F. Rogers e J. Alan Adams no livro Mathematical Elements for Computer Graphics: uma obra que tornou conceitos matemáticos complexos compreensíveis para programadores e estudantes. Quero fazer algo semelhante aqui, mas voltado para o aprendizado de máquina.</p>
+<p>Todos os posts serão escritos em português (pt-BR). Embora exista bastante material em inglês espalhado pela internet, ainda há poucos recursos em português que combinem rigor, clareza e aprofundamento matemático.</p>
+<p>No final de cada post, você encontrará uma seção de referências com todas as fontes utilizadas, para que possa consultar o material original e explorar exemplos adicionais. Os livros que servirão de base para esta série são principalmente:</p>
+<ul>
+<li>
+<p>Learning from Data — Yaser S. Abu-Mostafa, Malik Magdon-Ismail e Hsuan-Tien Lin</p>
+</li>
+<li>
+<p>Pattern Recognition and Machine Learning — Christopher M. Bishop</p>
+</li>
+<li>
+<p>Applied Multivariate Statistical Analysis — Wolfgang Härdle e Leopold Simar</p>
+</li>
+</ul>
+<p>O objetivo é que esta série sirva como um guia para quem deseja compreender não apenas “como usar” técnicas de Machine Learning, mas por que elas funcionam.</p>
+<h1 id="o-problema-da-aprendizagem">O Problema da Aprendizagem</h1>
+<p>Considere o seguinte cenário: é sábado à noite e cada pessoa da sua casa quer algo diferente. Você quer pizza, seu irmão quer um açaí gigante e sua mãe quer comida japonesa.</p>
+<p>Agora imagine conectar cada usuário ao restaurante ideal — mesmo quando são cozinhas diferentes, com preços diferentes, tempos de entrega diferentes e preferências que mudam o tempo todo. Quanto tempo o pedido deve levar? Qual restaurante é a melhor opção para cada pessoa? Esses são exatamente os desafios que a maior foodtech da América Latina, o iFood, resolve todos os dias.</p>
+<p>Como mencionei no início, usuários e restaurantes têm características únicas — e ambas mudam constantemente. O “melhor” restaurante não é apenas o que serve a melhor comida. Ele também precisa ter o preço certo, o tempo de entrega adequado e, quem sabe, até uma promoção especial naquele momento.</p>
+<p>O grande desafio é identificar, a cada instante, qual é a melhor oferta para aquele cliente, naquele contexto específico.
+Para isso, o sistema de recomendação do iFood é estruturado em quatro pilares principais:</p>
+<ul>
+<li>Perfil do cliente: quanto ela pode pagar? Quão ativa é essa usuária? Que culinárias ela mais pede?</li>
+<li>Contexto: como o comportamento muda aos fins de semana? Em datas especiais? Em uma determinada localização?</li>
+<li>Jornada do cliente: se um usuário pediu pizza ontem, o que faz sentido recomendar hoje?</li>
+<li>Perfil dos pratos: quais tags definem cada prato? Prazer, saudabilidade, rapidez, valor calórico, risco de alergias, etc.</li>
+</ul>
+<p>E é justamente aqui que entra o poder do learning from data. Em vez de programar manualmente todas essas regras — o que seria impossível — o sistema aprende sozinho, a partir dos dados de pedidos anteriores. Ele descobre padrões complexos que conectam cada cliente, cada prato e cada contexto, fazendo uma “engenharia reversa” das preferências reais das pessoas. Caso você queria saber mais sobre o sistema de recomendação do ifood, leia o post [<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>] que foi escrito pela Julia Tessler no Medium.</p>
+<h2 id="componentes-da-aprendizagem">Componentes da Aprendizagem</h2>
+<p>O sistema de recomendação do iFood ilustra de forma clara o que significa aprender a partir de dados — assim como muitas outras aplicações em domínios totalmente distintos. Para compreender melhor os elementos comuns presentes em qualquer problema de aprendizado, utilizarei esse cenário ao longo da explicação. Ele servirá como metáfora para apresentar, de maneira intuitiva, cada componente essencial do processo de learning from data.</p>
+<p>No livro Learning from Data, o professor Yaser Abu-Mostafa adota o exemplo da análise de solicitação de cartão de crédito para desempenhar esse mesmo papel. Caso você deseje conferir como ele usa essa metáfora, basta consultar a subseção 1.1.1 Components of Learning [<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>].</p>
+<p>Antes de prosseguir, vale destacar as condições fundamentais que caracterizam um problema de aprendizado de máquina. Em linhas gerais, elas podem ser resumidas em três pontos:</p>
+<ul>
+<li>
+<p><strong>Existencia um padrão</strong>;</p>
+</li>
+<li>
+<p>Esse padrão não é diretamente acessível — <strong>não há uma fórmula ou método matemático</strong> fechado capaz de resolvê-lo;</p>
+</li>
+<li>
+<p><strong>Existem dados</strong> a partir dos quais podemos tentar inferir esse padrão.</p>
+</li>
+</ul>
+<p>Se o problema que você está estudando não satisfaz essas três condições, então ele simplesmente não se enquadra como um problema de aprendizado de máquina</p>
+<p>Bom, vamos agora formalizar matematicamente os componentes principais de um problema de aprendizado.
+Primeiro, temos a <strong>entrada</strong> $x$ , que representa as informações disponíveis sobre um usuário naquele momento (por exemplo: horário do dia, histórico de pedidos, localização, categoria preferida etc.).
+Existe também uma <strong>função alvo</strong> (<em>target function</em>) $f: X \rightarrow Y$. No contexto da metáfora do iFood, $f$ representa a <strong>escolha ideal do usuário</strong> — isto é, a função que saberia exatamente qual restaurante o usuário escolheria em cada situação.
+O conjunto $X$ é o <strong>espaço de entrada</strong> (<em>input space</em>), contendo todas as possíveis combinações de características $X$.</p>
+<p>O conjunto $Y$ é o <strong>espaço de saída</strong> (<em>output space</em>), que representa todas as recomendações possíveis (por exemplo, um restaurante ou um conjunto ranqueado de restaurantes). Também temos o <strong>conjunto de dados</strong> $D = {(x_n, y_n)}_{n=1}^N$, composto por pares entrada–saída, onde cada $y_n = f(x_n)$ é a escolha que o usuário realmente fez naquele contexto.
+Por fim, temos o <strong>algoritmo de aprendizado</strong> (learning algorithm), cujo objetivo é encontrar uma função $g$ tal que $g : X \rightarrow Y$ seja uma boa aproximação de $f$.
+O algoritmo não pode escolher <em>qualquer</em> função possível — ele deve escolher dentro de um conjunto limitado de candidatos, chamado <strong>conjunto de hipóteses</strong>, $H$. Assim como o iFood não mostra <strong>todos</strong> os restaurantes do mundo, mas apenas um subconjunto disponível e relevante, o algoritmo também escolhe sua hipótese apenas dentro do “cardápio” oferecido por $H$. A figura abaixo ilustra os compontes de aprendizagem.</p>
+<img src="/img/machine-learning/componentes de aprendizagem.png" class="center" />
+<h1 id="referências">Referências</h1>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://medium.com/ifood-engineering/recommendation-ifood-88d60fa8bc6a" target="_blank" rel="noopener noreffer ">Recommendation at Ifood</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://amlbook.com/" target="_blank" rel="noopener noreffer ">Learning From Data</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Possibilitado por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.152.2">Hugo</a> | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Voltar ao topo">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentários">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar para a área de transferência","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

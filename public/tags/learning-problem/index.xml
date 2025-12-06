@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Raphael Nascimneto</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blogs on Raphael Nascimneto</description>
+    <title>Learning Problem on Raphael Nascimneto</title>
+    <link>http://localhost:1313/tags/learning-problem/</link>
+    <description>Recent content in Learning Problem on Raphael Nascimneto</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Thu, 27 Nov 2025 18:55:20 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/learning-problem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aprendizado é Possivel?</title>
       <link>http://localhost:1313/blog/learning-feasible/</link>
