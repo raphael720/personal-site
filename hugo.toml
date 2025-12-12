@@ -3,6 +3,15 @@ defaultContentLanguage = "pt-br"
 theme = 'LoveIt'
 title = "Raphael Nascimneto"
 
+enableGitInfo = true
+enableEmoji = true
+
+# Pagination config
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = "page"
+
 [params]
     # site default theme ["auto", "light", "dark"]
     defaultTheme = "auto"
@@ -35,6 +44,41 @@ title = "Raphael Nascimneto"
     name = "Raphael Nascimento"
     # whether to use typeit animation for title name
     typeit = false
+
+# Author config
+[params.author]
+name = "Raphael"
+email = ""
+link = ""
+
+# Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = ""
+    # whether to show Hugo and theme info
+    hugo = true
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # site creation time
+    since = 2019
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+# Section (all posts) page config
+[params.section]
+# special amount of posts in each section page
+paginate = 20
+# date format (month and day)
+dateFormat = "01-02"
+# amount of RSS pages
+rss = 10
+
+
 
 # Home page config
 [params.home]
@@ -137,8 +181,8 @@ title = "Raphael Nascimneto"
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "blog"
-        url = "/blog/"
+        name = "Blog"
+        url = "/posts/"
         # title will be shown when you hover on this menu link
         title = ""
     [[menu.main]]

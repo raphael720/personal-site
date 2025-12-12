@@ -1,12 +1,12 @@
 +++
 title = 'O Problema da Aprendizagem'
 date = 2025-11-22T21:08:10-03:00
+draft = false
 Tags = ["Learning Problem"]
 Categories = ["Inteligencia Artificial"]
-draft = false
 +++
 
-# Prefacio
+## Prefacio
 A proposta desta série de posts é apresentar, de forma clara e acessível, os fundamentos matemáticos que tornam o aprendizado de máquina (Machine Learning) possível. Fundamentos que muitas vezes ficam de fora dos cursos online ou aparecem apenas de maneira superficial.
 
 Minha inspiração vem do trabalho de David F. Rogers e J. Alan Adams no livro Mathematical Elements for Computer Graphics: uma obra que tornou conceitos matemáticos complexos compreensíveis para programadores e estudantes. Quero fazer algo semelhante aqui, mas voltado para o aprendizado de máquina.
@@ -23,7 +23,7 @@ No final de cada post, você encontrará uma seção de referências com todas a
 
 O objetivo é que esta série sirva como um guia para quem deseja compreender não apenas “como usar” técnicas de Machine Learning, mas por que elas funcionam.
 
-# O Problema da Aprendizagem 
+## O Problema da Aprendizagem 
 
 Considere o seguinte cenário: é sábado à noite e cada pessoa da sua casa quer algo diferente. Você quer pizza, seu irmão quer um açaí gigante e sua mãe quer comida japonesa.
 
@@ -41,7 +41,7 @@ Para isso, o sistema de recomendação do iFood é estruturado em quatro pilares
 
 E é justamente aqui que entra o poder do learning from data. Em vez de programar manualmente todas essas regras — o que seria impossível — o sistema aprende sozinho, a partir dos dados de pedidos anteriores. Ele descobre padrões complexos que conectam cada cliente, cada prato e cada contexto, fazendo uma “engenharia reversa” das preferências reais das pessoas. Caso você queria saber mais sobre o sistema de recomendação do ifood, leia o post [[^ifood]] que foi escrito pela Julia Tessler no Medium.
 
-## Componentes da Aprendizagem
+### Componentes da Aprendizagem
 
 O sistema de recomendação do iFood ilustra de forma clara o que significa aprender a partir de dados — assim como muitas outras aplicações em domínios totalmente distintos. Para compreender melhor os elementos comuns presentes em qualquer problema de aprendizado, utilizarei esse cenário ao longo da explicação. Ele servirá como metáfora para apresentar, de maneira intuitiva, cada componente essencial do processo de learning from data.
 
