@@ -1,43 +1,50 @@
-+++
-date = '2025-11-23T17:53:51-03:00'
-draft = true
-title = 'About'
-+++
+---
+date: '2025-11-23T17:53:51-03:00'
+draft: false
+title: 'Sobre'
+---
 
-# 👋 Hi, I’m Raphael Nascimento.
+# 👋 Olá, sou Raphael Nascimento.
 
-I’m a **Data Scientist** graduated from UFPB. My passion for programming began when I was 16, creating my first game in Python. Since then, I’ve focused on three main areas of Computer Science: **Computer Graphics**, **Machine Learning**, and **Software Engineering**.
+Sou **Cientista de Dados** formado pela UFPB. Minha paixão por programação começou quando eu tinha 16 anos, criando meu primeiro jogo em Python. Desde então, tenho me dedicado a três áreas principais da Ciência da Computação: **Computação Gráfica**, **Aprendizado de Máquina** e **Engenharia de Software**.
 
-# 💻 My Experience
+# 💻 Minha Experiência
 
-I worked with **React.js** on the front-end and **Java/Spring Boot** on the back-end during my first internship at Synchro (one of the leading Brazilian companies in tax and compliance solutions). While at Synchro, I helped build internal applications by implementing new features, improving performance, and collaborating in an agile, cross-functional environment.
+Trabalhei com **React.js** no front-end e **Java/Spring Boot** no back-end durante meu primeiro estágio na Synchro (uma das principais empresas brasileiras em soluções fiscais e de compliance). Na Synchro, ajudei a construir aplicações internas implementando novas funcionalidades, melhorando o desempenho e colaborando em um ambiente ágil e multifuncional.
 
-Parallel to software development, I’ve been part of AI-focused projects at **TAIL (Technology and Artificial Intelligence League)**, where I worked on solutions such as:
+Paralelamente ao desenvolvimento de software, participei de projetos focados em IA na **TAIL (Liga de Tecnologia e Inteligência Artificial)**, onde trabalhei em soluções como:
 
-* A **computer vision tool** to automatically identify fire extinguishers in architectural floor plans;
-* An **LLM-based academic assistant** using RAG to help students navigate university paperwork and administrative processes.
+* Uma **ferramenta de visão computacional** para identificar automaticamente extintores de incêndio em plantas baixas arquitetônicas;
+* Um **assistente acadêmico baseado em LLM** utilizando RAG para ajudar estudantes a navegar pela burocracia e processos administrativos da universidade.
 
-# 🎓 Academic Involvement
+# 🎓 Atuação Acadêmica
 
-I worked as a researcher in the field of networks and security at the Laboratory of Computer Networks (LAR). As a result of this research, a paper titled **“Experimental Demonstration of Vulnerabilities in Internet of Things Devices”** was published and awarded *Best Short Paper* at the XVI Workshop of Undergraduate Research (WTICG), held during the XXII Brazilian Symposium on Information and Computer Systems Security (SBSeg 2022).
+Atuei como pesquisador na área de redes e segurança no Laboratório de Redes de Computadores (LAR). Como resultado dessa pesquisa, um artigo intitulado **"Demonstração Experimental de Vulnerabilidades em Dispositivos Internet das Coisas"** foi publicado e premiado como *Melhor Short Paper* no XVI Workshop de Trabalhos de Iniciação Científica (WTICG), realizado durante o XXII Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg 2022).
 
-I also worked as a tutor for the Introduction to Programming course, supporting first-year Data Science students by answering questions and providing guidance on assignments and projects.
+Também atuei como monitor da disciplina de Introdução à Programação, apoiando os alunos do primeiro ano de Ciência de Dados, tirando dúvidas e orientando-os em tarefas e projetos.
 
-## 📄 Published Papers
+## 📄 Artigos Publicados
 
 * **[Demonstração Experimental de Vulnerabilidades em Dispositivos Internet das Coisas](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21719/21543)**
-  *Published at* **[SBSeg — Sociedade Brasileira de Computação (SBC), 2022](https://www.sbc.org.br/)**
+  *Publicado no* **[SBSeg — Sociedade Brasileira de Computação (SBC), 2022](https://www.sbc.org.br/)**
 
 ---
 
-## 🎓 Relevant Certificates
+## 🎓 Certificados Relevantes
 
-* **[Google AI Essentials — Coursera](https://coursera.org/share/82d9e8727e529d594d96ddbf45a268c1)** — *Completed in 12/2024*
+* **[Google AI Essentials — Coursera](https://coursera.org/share/82d9e8727e529d594d96ddbf45a268c1)** — *Concluído em 12/2024*
 
 --- 
-# 📑 Resume in BR and US
+# 📑 Currículos
 
-* [📄 Baixar meu currículo em BR](Raphael_resume_simplified_BR.pdf)
+## Currículo PT-BR
 
-* [📄 Download my resume in US](Raphael_resume_simplified_US.pdf)
+* [📄 Baixar meu currículo PT-BR para engenharia de software](Raphael_resume_engineering_BR.pdf)
 
+* [📄 Baixar meu currículo PT-BR para Cientista de Dados](Raphael_resume_ML_BR.pdf)
+
+## Currículo US
+
+* [📄 Baixar meu currículo US para engenharia de software](Raphael_resume_engineering_US.pdf)
+
+* [📄 Baixar meu currículo US para Cientista de Dados](Raphael_resume_ML_US.pdf)
